@@ -1,7 +1,11 @@
 import random
 from os import system, name
 
+# Change this to True if you want to use names instead of numbers to assign people to pods
+# Change to False to just use numbers that you assign to members
 NAMED = False
+
+# Other variable stuffs
 names = list()
 pods = list()
 pod = 0
